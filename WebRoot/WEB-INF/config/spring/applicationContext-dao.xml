@@ -36,11 +36,11 @@
 		<!--<property name="configLocation" value="classpath:mybatis-config.xml"></property>
 		<property name="typeAliasesPackage" value="org.mybatis.jpetstore.domain" />
 		<property name="mapperLocations" value="/WEB-INF/config/mybatis/maps/*.xml" />
-		 -->
 		 <property name="mapperLocations" value="/WEB-INF/config/mybatis/maps/*.xml" />
+		 -->
 	</bean>
     <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
-		<property name="basePackage" value="com.meixin.bd.dao" />
+		<property name="basePackage" value="com.linjiangxian.bd.dao" />
 		
 		<property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"/>
 	</bean>

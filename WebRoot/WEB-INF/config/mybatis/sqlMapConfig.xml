@@ -5,7 +5,7 @@
 <configuration>
 	<typeAliases>
 <!-- 		<typeAlias type="org.podcastpedia.domain.Podcast" alias="Podcast"/>  -->
-		<package name="com.meixin.bd.bean"/>
+		<package name="com.linjiangxian.bd.bean"/>
 	</typeAliases>
 	
 	

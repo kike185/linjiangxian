@@ -41,6 +41,6 @@
       
     <!-- aop -->  
     <aop:config>  
-        <aop:advisor advice-ref="txAdvice" pointcut="execution(* com.meixin.bd.service.impl.*.*(..))"/>  
+        <aop:advisor advice-ref="txAdvice" pointcut="execution(* com.linjiangxian.bd.service.impl.*.*(..))"/>  
     </aop:config>  
 </beans>  

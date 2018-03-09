@@ -5,6 +5,6 @@
     http://www.springframework.org/schema/beans/spring-beans-4.3.xsd
 ">
     
-    <bean id="materialService" class="com.meixin.bd.service.impl.MaterialServiceImpl">
+    <bean id="materialService" class="com.linjiangxian.bd.service.impl.MaterialServiceImpl">
     </bean>
 </beans>  
