@@ -4,7 +4,7 @@
  *
  *
  */
-package com.meixin.base.bean;
+package com.linjiangxian.base.bean;
 
 import java.io.Serializable;
 

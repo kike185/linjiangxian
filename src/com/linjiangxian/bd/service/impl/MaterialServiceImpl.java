@@ -4,16 +4,16 @@
  *
  *
  */
-package com.meixin.bd.service.impl;
+package com.linjiangxian.bd.service.impl;
 
 import java.util.Collection;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.meixin.base.bean.DtspRequest;
-import com.meixin.bd.bean.Material;
-import com.meixin.bd.dao.MaterialMapper;
-import com.meixin.bd.service.MaterialService;
+import com.linjiangxian.base.bean.DtspRequest;
+import com.linjiangxian.bd.bean.Material;
+import com.linjiangxian.bd.dao.MaterialMapper;
+import com.linjiangxian.bd.service.MaterialService;
 
 /**
  * @ClassName:  MemberServiceImpl

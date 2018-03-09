@@ -4,14 +4,14 @@
  *
  *
  */
-package com.meixin.bd.dao;
+package com.linjiangxian.bd.dao;
 
 import java.util.Collection;
 
 import org.springframework.stereotype.Repository;
 
-import com.meixin.base.bean.DtspRequest;
-import com.meixin.bd.bean.Material;
+import com.linjiangxian.base.bean.DtspRequest;
+import com.linjiangxian.bd.bean.Material;
 
 /**
  * @ClassName:  MaterialDAO

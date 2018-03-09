@@ -4,12 +4,12 @@
  *
  *
  */
-package com.meixin.bd.service;
+package com.linjiangxian.bd.service;
 
 import java.util.Collection;
 
-import com.meixin.base.bean.DtspRequest;
-import com.meixin.bd.bean.Material;
+import com.linjiangxian.base.bean.DtspRequest;
+import com.linjiangxian.bd.bean.Material;
 
 
 /**

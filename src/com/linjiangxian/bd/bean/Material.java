@@ -1,4 +1,4 @@
-package com.meixin.bd.bean;
+package com.linjiangxian.bd.bean;
 
 import java.math.BigDecimal;
 import java.util.Date;

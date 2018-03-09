@@ -4,11 +4,11 @@
  *
  *
  */
-package com.meixin.bd.bean;
+package com.linjiangxian.bd.bean;
 
 import java.math.BigDecimal;
 
-import com.meixin.base.bean.DtspRequest;
+import com.linjiangxian.base.bean.DtspRequest;
 
 /**
  * @ClassName:  MaterialRequest

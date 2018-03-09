@@ -4,7 +4,7 @@
  *
  *
  */
-package com.meixin.bd.controller;
+package com.linjiangxian.bd.controller;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -14,8 +14,8 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
-import com.meixin.bd.bean.Material;
-import com.meixin.bd.service.MaterialService;
+import com.linjiangxian.bd.bean.Material;
+import com.linjiangxian.bd.service.MaterialService;
 
 /**
  * @ClassName: MaterialRestCtrl
