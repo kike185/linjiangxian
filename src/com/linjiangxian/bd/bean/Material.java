@@ -16,7 +16,7 @@ public class Material{
 		this.id=id;
 		this.number=number;
 		this.name=name;
-		this.priceRange= new BigDecimal(price);
+		this.price= new BigDecimal(price);
 	}
 	public Material() {}
 	
@@ -25,7 +25,7 @@ public class Material{
 	//名称
 	private String name;
 	//建议零售价
-	private BigDecimal priceRange;
+	private BigDecimal price;
 	//基本计量单位
 	private String baseUnit;
 	//类型
@@ -91,16 +91,16 @@ public class Material{
 		this.number = number;
 	}
 	/**
-	 * @return the priceRange
+	 * @return the price
 	 */
-	public BigDecimal getPriceRange() {
-		return priceRange;
+	public BigDecimal getPrice() {
+		return price;
 	}
 	/**
-	 * @param priceRange the priceRange to set
+	 * @param price the price to set
 	 */
-	public void setPriceRange(BigDecimal priceRange) {
-		this.priceRange = priceRange;
+	public void setPrice(BigDecimal price) {
+		this.price = price;
 	}
 	/**
 	 * @return the baseUnit

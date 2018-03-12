@@ -33,7 +33,7 @@ public class MaterialGetRequest extends DtspRequest {
 	private String filterPattern ;  //过滤模式
 	
 	//建议零售价
-	private BigDecimal priceRange;
+	private BigDecimal price;
 	//类型
 	private String type;
 	//折射率
@@ -51,9 +51,9 @@ public class MaterialGetRequest extends DtspRequest {
 	 //品种//品种归纳
     private String typeInclude;
     //起始价格
-    private BigDecimal priceRangeFrom;
+    private BigDecimal priceFrom;
     //最高价格
-    private BigDecimal priceRangeEnd;
+    private BigDecimal priceEnd;
     //大类
     private String materialType;
 	/** 该数字用来指明每页可返回 记录数*/
@@ -149,11 +149,11 @@ public class MaterialGetRequest extends DtspRequest {
 	public void setFilterPattern(String filterPattern) {
 		this.filterPattern = filterPattern;
 	}
-	public BigDecimal getPriceRange() {
-		return priceRange;
+	public BigDecimal getPrice() {
+		return price;
 	}
-	public void setPriceRange(BigDecimal priceRange) {
-		this.priceRange = priceRange;
+	public void setPrice(BigDecimal price) {
+		this.price = price;
 	}
 	public String getType() {
 		return type;
@@ -203,18 +203,18 @@ public class MaterialGetRequest extends DtspRequest {
 	public void setTypeInclude(String typeInclude) {
 		this.typeInclude = typeInclude;
 	}
-	public BigDecimal getPriceRangeFrom() {
-		return priceRangeFrom;
+	public BigDecimal getPriceFrom() {
+		return priceFrom;
 	}
-	public void setPriceRangeFrom(BigDecimal priceRangeFrom) {
-		this.priceRangeFrom = priceRangeFrom;
+	public void setPriceFrom(BigDecimal priceFrom) {
+		this.priceFrom = priceFrom;
 	}
 	
-	public BigDecimal getPriceRangeEnd() {
-		return priceRangeEnd;
+	public BigDecimal getPriceEnd() {
+		return priceEnd;
 	}
-	public void setPriceRangeEnd(BigDecimal priceRangeEnd) {
-		this.priceRangeEnd = priceRangeEnd;
+	public void setPriceEnd(BigDecimal priceEnd) {
+		this.priceEnd = priceEnd;
 	}
 	public String getMaterialType() {
 		return materialType;

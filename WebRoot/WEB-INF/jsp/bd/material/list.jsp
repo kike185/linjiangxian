@@ -58,7 +58,7 @@
 									<tr>
 										<td>${item.number}</td>
 										<td>${item.name}</td>
-										<td>${item.priceRange}</td>
+										<td>${item.price}</td>
 										<td><a href="${pageContext.request.contextPath }/item/editItem.action?id=${item.id}">修改</a></td>
 
 
