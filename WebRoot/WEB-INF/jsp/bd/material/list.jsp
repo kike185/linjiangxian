@@ -6,13 +6,17 @@
 <html lang="en">
 
 <head>
-<title>会员列表</title>
+<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<!--  <link href="css/buju.css" rel="stylesheet"> -->
+<!--  <link href="css/index.css" rel="stylesheet"> -->
+ <script type="text/javascript" src="js/jquery.min.js"></script>
+<title>商品列表</title>
 </head>
 
 <body>
 	<div class="row">
 		<div class="col-lg-12">
-			<h1 class="page-header">基础资料 - 会员</h1>
+			<h1 class="page-header">基础资料 - 商品</h1>
 
 		</div>
 		<!-- /.col-lg-12 -->
